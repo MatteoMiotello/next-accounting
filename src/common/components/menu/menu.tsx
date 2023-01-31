@@ -1,7 +1,7 @@
 import Link from "next/link";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faHome, faUser} from "@fortawesome/free-solid-svg-icons";
-import {MenuItem} from "@/pages/components/menu/menuItem";
+import {faHome, faMoneyBill, faUser} from "@fortawesome/free-solid-svg-icons";
+import {MenuItem} from "@/src/common/components/menu/menu_item";
 
 
 
@@ -18,6 +18,12 @@ const menuItems: MenuItem[] = [
         label: "Users",
         link: "/home"
     },
+    {
+        icon: faMoneyBill,
+        key: 3,
+        label: "Assets",
+        link: "/asset"
+    }
 ]
 
 export default function MainMenu() {

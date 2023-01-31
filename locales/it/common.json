@@ -1,0 +1,17 @@
+{
+  "user": {
+    "id_column": "Id"
+  },
+  "asset": {
+    "id_column": "Id",
+    "name_column": "Nome",
+    "initial_value_column": "Valore iniziale"
+  },
+  "login": {
+    "username_field": "Username",
+    "password_field": "Password",
+    "username_field_error": "Username is required",
+    "password_field_error": "Password is required",
+    "submit_button": "Submit"
+  }
+}

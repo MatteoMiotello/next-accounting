@@ -1,0 +1,7 @@
+{
+  "username_field": "Username",
+  "password_field": "Password",
+  "username_field_error": "Username is required",
+  "password_field_error": "Password is required",
+  "submit_button": "Submit"
+}

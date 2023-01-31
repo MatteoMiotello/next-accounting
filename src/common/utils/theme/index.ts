@@ -3,7 +3,7 @@ import {theme} from "antd";
 
 const mainTheme: ThemeConfig = {
     token: {
-        colorPrimary: "#86bbd8",
+        colorPrimary: "#0000"
     }
 };
 export default mainTheme
